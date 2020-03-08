@@ -22,35 +22,34 @@
   </head>
   <body>
     <!-- Navigation -->
-<nav class="topHeader clearfix">
-  <div class="headerWrapper">
+<nav class="hero-topHeader clearfix">
+  <div class="hero-headerWrapper">
 
-    <div class="logo">
+    <div class="hero-logo">
       <a href="/index">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
         	 viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
-          <circle cx="150" cy="150" r="145"/>
-          <path class="st1" d="M125.35,119.23c-8.88-19.04-36.63-18.28-43.85,1.45c-5.04,13.78-4.82,29.48,1.87,43.83
+          <circle class="hero-circle" cx="150" cy="150" r="145"/>
+          <path class="hero-st1" d="M125.35,119.23c-8.88-19.04-36.63-18.28-43.85,1.45c-5.04,13.78-4.82,29.48,1.87,43.83
         	c12.02,25.79,40.83,38.39,67.35,30.87c4.7-1.33,7.07-6.58,5.01-11L125.35,119.23z"/>
-          <path class="st0" d="M79.94,197.53c1.1,0,1.96-0.98,1.79-2.06c-0.99-6.21-6.37-10.96-12.86-10.96c-6.48,0-11.85,4.73-12.85,10.93
+          <path class="hero-st0" d="M79.94,197.53c1.1,0,1.96-0.98,1.79-2.06c-0.99-6.21-6.37-10.96-12.86-10.96c-6.48,0-11.85,4.73-12.85,10.93
         	c-0.18,1.1,0.68,2.09,1.79,2.09H79.94z"/>
-          <path class="st0" d="M220.06,102.22c-1.1,0-1.96,0.98-1.79,2.06c0.99,6.21,6.37,10.96,12.86,10.96c6.48,0,11.85-4.73,12.85-10.93
+          <path class="hero-st0" d="M220.06,102.22c-1.1,0-1.96,0.98-1.79,2.06c0.99,6.21,6.37,10.96,12.86,10.96c6.48,0,11.85-4.73,12.85-10.93
         	c0.18-1.1-0.68-2.09-1.79-2.09H220.06z"/>
-          <path class="st1" d="M174.65,180.52c8.88,19.04,36.63,18.28,43.85-1.45c5.04-13.78,4.82-29.48-1.87-43.83
+          <path class="hero-st1" d="M174.65,180.52c8.88,19.04,36.63,18.28,43.85-1.45c5.04-13.78,4.82-29.48-1.87-43.83
         	c-12.02-25.79-40.83-38.39-67.35-30.87c-4.7,1.33-7.07,6.58-5.01,11L174.65,180.52z"/>
         </svg>
       </a>
     </div>
 
-    <div class="navigation">
-      <a href="/reel">Reel</a>
-      <a href="/index">Work</a>
-      <a href="/personal">Personal</a>
-      <a href="/about">About</a>
-      <a href="/contact">Contact</a>
+    <div class="hero-navigation">
+      <a class="hero-a" href="/index">Work</a>
+      <a class="hero-a" href="/playground">Playground</a>
+      <a class="hero-a" href="/about">About</a>
+      <a class="hero-a" href="/contact">Contact</a>
     </div>
 
-    <div class="hamburgerMenu">
+    <div class="hero-hamburgerMenu">
       <a href="#">
         <span></span>
         <span></span>
@@ -58,10 +57,9 @@
       </a>
     </div>
 
-    <div class="hamburgerNavigation">
-      <a href="/reel">Reel</a>
+    <div class="hero-hamburgerNavigation">
       <a href="/index">Work</a>
-      <a href="/personal">Personal</a>
+      <a href="/playground">Playground</a>
       <a href="/about">About</a>
       <a href="/contact">Contact</a>
     </div>
@@ -70,11 +68,34 @@
 </nav>
 
     <section class="workHeader">
-  <h1>Hello, I’m Alexis Vilaça, a motion designer from Portugal.</h1>
+  <div class="workHeaderWrapper">
+    <h1>Hi, my name is Alexis. I'm a motion <br>designer currently living in Portugal.</h1>
+  </div>
+  <img src="/assets/img/hero.png">
 </section>
 
 
 <section class="workProjectWrapper clearfix">
+
+  <!-- Pixartidea -->
+  <div class="workProject">
+    <img src="/assets/img/work/PixartideaHolidays_Cover.jpg" alt="Holidays - Pixartidea">
+    <div class="workProjectOverlay">
+      <a class="workProjectOverlayLink" href="/work/pixartidea-holidays">
+        <p class="workProjectOverlayInfo">Holidays — Pixartidea</p>
+      </a>
+    </div>
+  </div>
+
+  <!-- Fibrenamics Explainer -->
+  <div class="workProject">
+    <img src="/assets/img/work/FibrenamicsRebrand_Cover.jpg" alt="Fibrenamics Rebrand">
+    <div class="workProjectOverlay">
+      <a class="workProjectOverlayLink" href="/work/fibrenamics-rebrand">
+        <p class="workProjectOverlayInfo">We are Fibrenamics</p>
+      </a>
+    </div>
+  </div>
 
   <!-- AuxDefense Shelter -->
   <div class="workProject">
@@ -82,16 +103,6 @@
     <div class="workProjectOverlay">
       <a class="workProjectOverlayLink" href="/work/auxdefense-shelter">
         <p class="workProjectOverlayInfo">AuxDefense Shelter</p>
-      </a>
-    </div>
-  </div>
-
-  <!-- Ignite Sessions -->
-  <div class="workProject">
-    <img src="/assets/img/work/IgniteSessions_Cover.jpg" alt="Ignite Sessions">
-    <div class="workProjectOverlay">
-      <a class="workProjectOverlayLink" href="/work/ignite-sessions">
-        <p class="workProjectOverlayInfo">Ignite Sessions</p>
       </a>
     </div>
   </div>
@@ -106,7 +117,17 @@
     </div>
   </div>
 
-  <!-- Set.Up Guimarães -->
+  <!-- Ignite Sessions -->
+  <div class="workProject">
+    <img src="/assets/img/work/IgniteSessions_Cover.jpg" alt="Ignite Sessions">
+    <div class="workProjectOverlay">
+      <a class="workProjectOverlayLink" href="/work/ignite-sessions">
+        <p class="workProjectOverlayInfo">Ignite Sessions</p>
+      </a>
+    </div>
+  </div>
+
+  <!-- Set.Up guimarães -->
   <div class="workProject">
     <img src="/assets/img/work/SetUpGuimaraes_Cover.jpg" alt="Set.Up Guimarães">
     <div class="workProjectOverlay">
@@ -126,16 +147,6 @@
     </div>
   </div>
 
-  <!-- Training Online -->
-  <div class="workProject">
-    <img src="/assets/img/work/TrainingOnline_Cover.jpg" alt="Training Online">
-    <div class="workProjectOverlay">
-      <a class="workProjectOverlayLink" href="/work/training-online">
-        <p class="workProjectOverlayInfo">Training Online</p>
-      </a>
-    </div>
-  </div>
-
   <!-- Curso Profissional de Multimédia -->
   <div class="workProject">
     <img src="/assets/img/work/CursoProfissionalMultimedia_Cover.jpg" alt="Curso Profissional de Multimédia">
@@ -146,16 +157,34 @@
     </div>
   </div>
 
+  <!-- Training Online -->
+  <!--<div class="workProject">
+    <img src="/assets/img/work/TrainingOnline_Cover.jpg" alt="Training Online">
+    <div class="workProjectOverlay">
+      <a class="workProjectOverlayLink" href="/work/training-online">
+        <p class="workProjectOverlayInfo">Fibrenamics — Online Training</p>
+      </a>
+    </div>
+  </div>-->
+
 </section>
 
     <!-- Footer -->
 <footer class="footer">
-  <div class="footerWrapper">
-    <a href="https://www.instagram.com/alexisvilaca/" target="_blank"><i class="fab fa-instagram"></i></a>
-    <a href="https://vimeo.com/alexisvilaca" target="_blank"><i class="fab fa-vimeo-v"></i></a>
-    <a href="https://www.behance.net/alexisvilaca" target="_blank"><i class="fab fa-behance"></i></a>
-    <a href="https://www.linkedin.com/in/alexisvilaca" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-    <a href="mailto:hello@alexisvilaca.com" target="_blank"><i class="far fa-envelope"></i></a>
+  <div class="footerWrapper clearfix">
+    <div class="footerLeft">
+      <p class="footerLeftTitle">Social</p>
+      <a href="https://www.instagram.com/alexisvilaca/" target="_blank"><p class="footerLeftLinks">Instagram</p></a>
+      <a href="https://www.youtube.com/channel/UCYtaJtRbQtpd1KEP_q0Pq9w" target="_blank"><p class="footerLeftLinks">Youtube</p></a>
+      <a href="https://vimeo.com/alexisvilaca" target="_blank"><p class="footerLeftLinks">Vimeo</p></a>
+      <a href="https://www.behance.net/alexisvilaca" target="_blank"><p class="footerLeftLinks">Behance</p></a>
+      <a href="https://www.linkedin.com/in/alexisvilaca" target="_blank"><p class="footerLeftLinks">LinkedIn</p></a>
+    </div>
+    <div class="footerRight">
+      <p class="footerRightTitle">Contact</p>
+      <a href="mailto:hello@alexisvilaca.com" target="_blank"><p class="footerRightLinks">hello@alexisvilaca.com</p></a>
+      <p class="footerRightCopyright">&copy; 2020</p>
+    </div>
   </div>
 </footer>
 
